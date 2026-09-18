@@ -88,4 +88,11 @@ Dev server: [http://localhost:3000](http://localhost:3000)
 
 ## Deploy
 
-Vercel project: `jarvis-agents-that-execute-au` (scherzo-io/jarvis-agents).
+Vercel project: `jarvis-agents-that-execute-au` (linked to `scherzo-io/jarvis-agents`). Vercel Authentication is off so Stream Deck / HUD can call the API with no auth in v0.
+
+That project was created before this app existed and its Framework preset is empty, so Git deployments skip `next build`. In the Vercel dashboard: **Project Settings → General → Framework Preset → Next.js**, then Redeploy. `vercel.json` already pins `nextjs` plus install/build commands.
+
+Working production URL (Next.js preset):
+
+- https://jarvis-agents-azure.vercel.app
+- https://jarvis-agents-azure.vercel.app/api/health

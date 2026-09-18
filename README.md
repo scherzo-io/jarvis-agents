@@ -1,3 +1,7 @@
 # jarvis-agents
 
-Vercel project shell for Jarvis Slice 0. App code lands via CloudAgent PRs.
+Jarvis agents execution API — Vercel project `jarvis-agents-that-execute-au`.
+
+Owned by Jarvis Agents Builder. Lead: Jarvis Lead.
+
+Slice 0: health/API stub. Then control events for Stream Deck / HUD.
